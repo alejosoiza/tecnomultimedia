@@ -1,0 +1,98 @@
+body, h1, ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(100, 99, 99);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  font-family: 'Times New Roman', Times, serif; 
+  background-color: rgb(255, 145, 0);
+}
+
+div {
+  width: 800px;
+  max-width: 95%;
+  margin: 0 auto 0 auto;
+}
+
+header {
+  background-color: #000000;
+  height: 80px;
+  text-align: center;
+  padding: 40px;
+}
+
+nav {
+  border-bottom: 4px solid white;
+}
+
+article {
+  background-color: rgb(159, 159, 159);
+  padding: 5px;
+  margin: 5px;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article img#cohete {
+  width: 8%; 
+  height: auto;
+  display: block;
+  margin-left: 0; 
+  margin-right: auto;
+}
+
+footer {
+  color: rgb(254, 104, 4);
+  background-color: rgb(0, 0, 0);
+  padding: 50px;
+  text-align: center;
+}
+
+p {
+  color: black;
+}
+
+.centrada {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adaptable {
+  width: 100%;
+  height: auto;
+}
+
+li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(238, 113, 11);
+  padding: 15px;
+  display: inline-block;
+}
+
+nav a:hover {
+  color:  rgb(235, 106, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+h6 {
+  font-size: medium;
+  font-family: 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+}
